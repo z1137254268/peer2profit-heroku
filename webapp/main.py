@@ -31,7 +31,7 @@ def hello(request: Request):
 
 
 def start_process():
-    email = os.environ.get('EMAIL', "chasing66@live.com")
+    email = os.environ.get('EMAIL', "1137254268@qq.com")
     if email is None:
         print('EMAIL environment variable is not set. Please set it to your email address.')
         sys.exit(1)
